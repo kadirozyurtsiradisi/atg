@@ -80,7 +80,10 @@
 	
     $('.menu-btn .burger-wrapper').click(function () {
 		$(this).toggleClass('active');
-		$('.menu-wrapper').fadeToggle();
+		
+			$('.menu-wrapper').fadeToggle();
+	
+		$('.menu-wrapper').toggleClass('active2')
 		$('body').toggleClass('overFlowHidden');
 		$('header').removeClass('fixed-header');
 

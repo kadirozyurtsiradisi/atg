@@ -5203,11 +5203,12 @@ var isotope = {
 				}, 200);
 			});
 			th.$grid.isotope();
-		} else {
-			th.$grid = th.elements.$filter.isotope({
-				itemSelector: '[data-filter-card]',
-				layoutMode: 'fitRows'
-			});
+		} 
+		else {
+			// th.$grid = th.elements.$filter.isotope({
+				// itemSelector: '[data-filter-card]',
+				// layoutMode: 'fitRows'
+			// });
 		};
 
 	},
@@ -5216,7 +5217,7 @@ var isotope = {
 
 		var th = isotope;
 
-		th.$grid.isotope('layout');
+		//th.$grid.isotope('layout');
 
 	},
 
